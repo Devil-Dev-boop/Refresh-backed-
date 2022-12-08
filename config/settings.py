@@ -30,7 +30,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True
-# CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://127.0.0.1:3000', 'https://frontend-electric-views.herokuapp.com']
+# CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://127.0.0.1:3000', '']
 
 # Application definition
 
@@ -145,9 +145,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 cloudinary.config(
-    cloud_name="www-techis-io",
-    api_key="891747999686865",
-    api_secret="seWq_dLQRcb7O5eMY-XdAuznU_w",
+    cloud_name="dk82loasf",
+    api_key="415376419579977",
+    api_secret="bWDbB3dXJbXTlDW59ywrzH4mN4I",
     secure=True
 )
 
